@@ -1,0 +1,31 @@
+.toast-stack{position:fixed;right:18px;bottom:18px;display:flex;flex-direction:column;gap:8px;z-index:200}
+.toast{background:#12221b;color:#fff;padding:11px 14px;border-radius:11px;font-size:12px;max-width:360px;box-shadow:var(--shadow)}
+.toast.error{background:#b43d3d}.toast.success{background:var(--green)}
+.error-screen{min-height:60vh;display:grid;place-items:center;align-content:center;gap:12px;text-align:center;padding:40px;color:var(--muted)}
+.error-screen svg{width:34px;height:34px;color:var(--danger)}
+.error-screen .row-actions{justify-content:center}
+.row-actions{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.tiny-btn:disabled{opacity:.5;cursor:not-allowed}
+.tiny-btn.danger{background:#fff0f0;color:#b43d3d}
+.tiny-btn.solid{background:var(--green);color:#fff}
+.notif-item{cursor:pointer}
+.notif-item.unread{background:#f3faf5}
+.notif-item.unread strong:before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--green);margin-right:6px}
+.notif-pop{max-height:420px;overflow:auto}
+.hint{font-size:11px;color:var(--muted);line-height:1.5;margin:-6px 0 14px}
+.status.pending,.status.requested,.status.matched,.status.pickup_scheduled,.status.ready_for_pickup,.status.in_transit,.status.reserved,.status.partially_reserved,.status.urgent,.status.matching{background:#fff3de;color:#a26d20}
+.status.failed{background:#ffebeb;color:#bd4444}
+.status.fulfilled,.status.verified,.status.resolved,.status.assigned{background:#e6f4eb;color:#2b7953}
+.field-inline{display:flex;gap:8px;align-items:stretch}
+.field-inline input{flex:1}
+.btn-sm{padding:8px 11px;font-size:12px;border-radius:9px}
+.page-error{margin-bottom:16px}
+.page-error .btn{margin-left:auto}
+.sub-note{font-size:10px;color:#8d9a94;margin-top:3px;display:block}
+.score-grid div small{display:block;font-size:8px;color:#9aa59f;margin-top:2px}
+.signal-row i{max-width:100%}
+.admin-pill{font-size:9px;font-weight:800;letter-spacing:.8px;color:var(--green)}
+.delivery-actions{display:flex;gap:6px;flex-wrap:wrap}
+.delivery-actions .btn{flex:1;min-width:120px}
+.delivery-card h3{font-size:15px;margin:14px 0 0}
+.delivery-card .sub-note{margin-bottom:6px}
